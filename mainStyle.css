@@ -1,0 +1,88 @@
+body{
+	background: #ecf0f4;
+}
+/* div for the buttons*/
+div{
+    height:50px;
+}
+/* button declarations*/
+.high{
+
+}
+.low{
+
+}
+/* individual div colors*/
+.green, .blue, .yellow, .red, .orange{
+    height:50px;
+    width:50px;
+    border: 2px solid black;
+    /*make the color-blocks invisible until a buton is clicked*/
+    opacity:0;
+}
+/*divs to separate the two blocks of colors into two separate columns*/
+#column1{
+    float:left;
+}
+#column2{
+    float:left;
+}
+#button-column1, #button-column2{
+    float:left;
+    border:none;
+    height: 380px;
+    width: 100px;
+}
+#freeSpace{
+    float:left;
+    border:none;
+}
+.red{
+    background-color:red;
+}
+.blue{
+    background-color:blue;
+}
+.green{
+    background-color:green;
+}
+.yellow{
+    background-color:yellow;
+}
+.orange{
+    background-color:orange;
+}
+
+footer{
+	clear:both;
+	position: fixed;
+	bottom: 15px;
+	width:100%; /*Note: have to specify a width to center with text-align*/
+	text-align: center;
+}
+a {
+  color: #8ec63f;
+}
+a:hover {
+  color: #f7941d;
+}
+h1{
+    margin:10px 0 15px 55px;
+	font-size: 30px;
+	font-weight: bold;
+    font-family: "Helvetica";
+}
+h2 {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 6px;
+  font-style: italic;
+}
+/* typography format*/
+.byline {
+  color: #8c8c8c;
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  font-style: italic;
+}
+
+
